@@ -21,7 +21,7 @@ function printObject(objectInput) {
   console.log(objectInput);
 }
 
-printObject(object);
+printObject(object); // call the function // pass arguments to the function
 
 printObject(object2);
 
