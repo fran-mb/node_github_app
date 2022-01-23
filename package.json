@@ -1,0 +1,11 @@
+{
+  "name": "node_github_app",
+  "version": "1.0.0",
+  "description": "this is my first node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "author": "brighenti.fm@gmail.com",
+  "license": "ISC"
+}
