@@ -38,5 +38,6 @@ git checkout -b namebranch // to create a new branch
 git checkout master // to return to the master branch
 git pull origin master //
 git branch -D name of the branch // to delete the branch
+git push origin lelis-training
 
 */
