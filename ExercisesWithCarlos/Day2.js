@@ -40,3 +40,20 @@ function countTrips(myInputWithTrips) {
 
 // Now we call the function with the trips input
 countTrips(trips);
+
+
+/*
+output
+Cuntries I have been in: Mallorca, Switzerland.
+Of these trips, this have been beach trips: Mallorca
+Of these trips, this have been mountain trips: Switzerland
+
+
+/*
+Info: Start process (7:24:52 PM)
+Cuntries I have been in:  2
+Of these trips, this have been beach trips: 1
+Of these trips, this have been mountain trips:  1
+Info: End process (7:24:52 PM)
+
+*/

@@ -31,3 +31,13 @@ Commands we learned:
 6. git remote origin <URL> // To link your project with the remote copy in Github
 6. git push origin master // to push your master branch to the origin github URL
 */
+
+/*
+Monday 24/01
+git checkout -b namebranch // to create a new branch
+git checkout master // to return to the master branch
+git pull origin master //
+git branch -D name of the branch // to delete the branch
+git push origin lelis-training
+
+*/
