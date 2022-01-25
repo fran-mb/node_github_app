@@ -1,6 +1,6 @@
 // Create a application that decides if a person meets the criteria to travel to Thailand.
-// The application will ask if a user has (1) Covid Vaccine Certificate, (2) Covid PCR Test, (3) Willing to have fun.
-// There will be 3 applicants and the app should process their applications and provide as an output a message per applicant saying one of these two options:
+// The application will ask if a user has (1) Covid Vaccine Certificate, (2) Covid PCR Test, and (3) Willing to have fun. And the user should have all of them.
+// There will be 4 applicants and the app should process their applications and provide as an output a message per applicant saying one of these two options:
 // (A) SUCCESS: The applicant <Name> meets all the requirement
 // (B) NOVAC: The applicant <Name> didn't meet the following requirements: <List of criteria the applicant didn't meet>
 
