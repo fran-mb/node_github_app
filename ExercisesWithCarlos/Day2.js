@@ -41,7 +41,6 @@ function countTrips(myInputWithTrips) {
 // Now we call the function with the trips input
 countTrips(trips);
 
-
 /*
 output
 Cuntries I have been in: Mallorca, Switzerland.
