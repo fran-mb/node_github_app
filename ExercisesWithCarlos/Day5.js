@@ -36,9 +36,9 @@ Commands we learned:
 Monday 24/01
 git checkout -b namebranch // to create a new branch
 git checkout master // to return to the master branch
-git pull origin master //
+git pull origin master // to get the code from github specifically master branch
 git branch -D name of the branch // to delete the branch
-git push origin lelis-training
-git pull origin master
+git push origin (name of the branch) // to send the new branch to github
+git push  origin master // to send github the master banch. This is normally forbiden
 
 */
