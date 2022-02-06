@@ -6,6 +6,7 @@
     - Create a feature branch a PR with your changes.
     - Use JS ES6 features as (arrow functions, spread operator, map, forEach and find)
     - See here the 10 most useful ES6 features: https://blog.pragmatists.com/top-10-es6-features-by-example-80ac878794bb
+    - Note: Array objects have a javascript paramater by default that tells you the number of items. Example. const numberArray = [1,2,3]; if you do numberArray.length you get a number 3 of items.
 */
 
 // Functions - what needs to be implemented
@@ -14,7 +15,15 @@ const sayWelcome = () => {
   console.log("Welcome to my restaurant");
 };
 
-const showRecipesNumber = (recipes) => recipes.length;
+const showRecipesNumber = (recipes) => {
+  console.log(`There are ${recipes.length} recipes`);
+};
+
+const showAllRecipesNames = (recipes) => {
+  recipes.forEach((element) => {
+    console.log(element.name);
+  });
+};
 
 // Data
 const gazpacho = {
@@ -70,9 +79,12 @@ const recipes = [gazpacho, brigadeiro, paella, tortilla];
 sayWelcome(); // Expected output: 'Welcome to my restaurant'
 showRecipesNumber(recipes); // Expected output: 'There are 4 recipes'
 showAllRecipesNames(recipes); // Expected output: 'Gazpacho, Brigadeiro, Paella, Tortilla'
+
+/*
 showHighestRatingRecipe(recipes); // Expected output: 'Gazpacho. Rating: 10'
 showLowestRatingRecipe(recipes); // Expected output: 'Tortilla. Rating: 7'
 addRecipe(recipes, torrijas); // Expected output: 'Recipe for Torrias has been added'
 showRecipesNumber(recipes); // Expected output: 'There are 5 recipes'
 showAllRecipesNames(recipes); // Expected output: 'Gazpacho, Brigadeiro, Paella, Tortilla, Torrijas'
 findRecipe(recipes, "Tortilla"); // Expected output: 'Tortilla recipe: 'potatoes', 'eggs', 'olive oil', 'onion''
+*/
