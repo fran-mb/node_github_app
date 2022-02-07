@@ -50,7 +50,6 @@ console.log(car.year);
 
 */
 
-
 /* Exercise 1: Create and use objects.
      - Create an object that has 5 parameters (name the object and the parameters how you like but they have to be an entity for example a person or a car).
      - Each parameter has to be of a different type of the following primitive types: String, Boolean, Number, Null and Undefined.
@@ -59,3 +58,27 @@ console.log(car.year);
         - If the parameter is Not Null, display the message `This value is valid`. Being `value` the parameter's value.
         - If the parameter is Null, display the message `This value is invalid`. Being `value` the parameter's value.
 */
+
+const person = {
+  name1: "Lélis Brighenti",
+  age: 31,
+  athlete: true,
+  weight: null,
+  hairColor: undefined,
+};
+
+if (person.name1 === "Lélis Brighenti") {
+  console.log("Hello beautiful");
+}
+if (person.age === 31) {
+  console.log("You are so young");
+}
+if (person.athlete === true) {
+  console.log("You must workout hard");
+}
+if (person.weight === null) {
+  console.log("Woman do not talk about weight");
+}
+if (person.hairColor === "black") {
+  console.log("I like your hair color");
+}
