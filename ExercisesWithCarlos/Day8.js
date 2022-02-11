@@ -101,7 +101,7 @@ const person = {
   age: 31,
   athlete: true,
   weight: null,
-  hairColor: undefined,
+  hairColor: "blond",
 };
 
 if (person.name === "Lélis Brighenti") {
@@ -127,4 +127,25 @@ if (person.hairColor === "black") {
      2.4 Create a function that recieves the `person` object and tells "Welcome to functionLand", then it shows the person name. 
          Note: You can't copy paste code previously used in other functions.
 */
+function hi() {
+  console.log("Welcome to functionLand");
+}
+hi();
 
+function callName() {
+  console.log(person.name);
+  return person.name;
+}
+callName();
+
+function agePerson() {
+  if (person.age > 30) console.log("You are more than 30 years old");
+  return true;
+}
+agePerson();
+
+function receive() {
+  console.log(`Welcome to functionLand ${person.name}`);
+}
+
+receive();
