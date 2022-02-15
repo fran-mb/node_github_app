@@ -122,30 +122,32 @@ if (person.hairColor === "black") {
 
 /* Exercise 2: Create and use functions.
      2.1 Create a function that just say "Welcome to functionLand"
-     2.2.Create a function that receives the previously created `person` object and returns the name.
+     2.2.Create a function that receives an object `persona` and returns the name.
      2.3 Create a function that receives the person age and returns true if age is > 30. Otherwise it returns false.
      2.4 Create a function that recieves the `person` object and tells "Welcome to functionLand", then it shows the person name. 
          Note: You can't copy paste code previously used in other functions.
 */
+
 function hi() {
   console.log("Welcome to functionLand");
 }
-hi();
 
-function callName() {
-  console.log(person.name);
-  return person.name;
+function callName(person) {
+  const persona = person;
+  console.log(persona.name);
+  return persona.name;
 }
-callName();
 
 function agePerson() {
   if (person.age > 30) console.log("You are more than 30 years old");
   return true;
 }
-agePerson();
 
 function receive() {
   console.log(`Welcome to functionLand ${person.name}`);
 }
 
-receive();
+// hi();
+callName(person);
+// agePerson();
+// receive();
