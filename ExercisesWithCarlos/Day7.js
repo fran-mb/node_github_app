@@ -73,7 +73,7 @@ const torrijas = {
   rating: 6,
 };
 
-const recipes = [gazpacho, brigadeiro, paella, tortilla];
+let recipes = [gazpacho, brigadeiro, paella, tortilla];
 
 // Application
 sayWelcome(); // Expected output: 'Welcome to my restaurant'
@@ -81,10 +81,11 @@ showRecipesNumber(recipes); // Expected output: 'There are 4 recipes'
 showAllRecipesNames(recipes); // Expected output: 'Gazpacho, Brigadeiro, Paella, Tortilla'
 
 /*
-showHighestRatingRecipe(recipes); // Expected output: 'Gazpacho. Rating: 10'
-showLowestRatingRecipe(recipes); // Expected output: 'Tortilla. Rating: 7'
 addRecipe(recipes, torrijas); // Expected output: 'Recipe for Torrias has been added'
 showRecipesNumber(recipes); // Expected output: 'There are 5 recipes'
-showAllRecipesNames(recipes); // Expected output: 'Gazpacho, Brigadeiro, Paella, Tortilla, Torrijas'
 findRecipe(recipes, "Tortilla"); // Expected output: 'Tortilla recipe: 'potatoes', 'eggs', 'olive oil', 'onion''
+deleteRecipe(recipes, "Paella"); // Expected output: 'Recipe for Paella has been deleted'
+showRecipesNumber(recipes); // Expected output: 'There are 4 recipes'
+showHighestRatingRecipe(recipes); // Expected output: 'Gazpacho. Rating: 10'
+showLowestRatingRecipe(recipes); // Expected output: 'Tortilla. Rating: 7'
 */
