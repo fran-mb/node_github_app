@@ -25,6 +25,7 @@ printObject(object); // call the function // pass arguments to the function
 
 printObject(object2);
 
-// Advanced feature
-places.map(printObject); // the array.map JS function receives as an input (aka argument) a function that is going to be called for each item.
-// Note.aka is also known as
+// Advanced feature: map function
+/* the array.map JS function receives as an input (aka argument) a function that is going to
+   be called for each item, then that item will be passed as the function argument */
+places.map(printObject);

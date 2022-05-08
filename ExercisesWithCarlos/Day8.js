@@ -102,6 +102,7 @@ const person = {
   athlete: true,
   weight: null,
   hairColor: "blond",
+  
 };
 
 if (person.name === "Lélis Brighenti") {
